@@ -1,0 +1,1 @@
+export { fillText } from './fillText';
