@@ -1,7 +1,7 @@
 {
     "name": "filltext-for-twemoji",
     "version": "0.0.1",
-    "description": "",
+    "description": "Enables drawing of twemoji in node-canvas",
     "main": "dist/index.js",
     "files": [
         "dist"
@@ -16,7 +16,14 @@
         "type": "git",
         "url": "git+https://github.com/airRnot1106/fillText-for-twemoji-node-canvas.git"
     },
-    "keywords": [],
+    "keywords": [
+        "canvas",
+        "node-canvas",
+        "twemoji",
+        "emoji",
+        "fillText",
+        "fillText-for-twemoji"
+    ],
     "author": "airRnot1106 <yngw.rintaro@gmail.com>",
     "license": "MIT",
     "bugs": {
