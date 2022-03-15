@@ -2,10 +2,10 @@
     "name": "filltext-for-twemoji-node-canvas",
     "version": "0.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "start": "node dist/index.js",
-        "start-dev": "npx nodemon src/index.ts",
+        "start-dev": "npx nodemon test/test.ts",
         "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -22,6 +22,7 @@
     "homepage": "https://github.com/airRnot1106/fillText-for-twemoji-node-canvas#readme",
     "devDependencies": {
         "@types/node": "^17.0.21",
+        "@types/twemoji-parser": "^13.1.1",
         "@typescript-eslint/eslint-plugin": "^5.10.0",
         "@typescript-eslint/parser": "^5.10.0",
         "eslint": "^8.7.0",
@@ -30,5 +31,9 @@
         "prettier": "^2.5.1",
         "ts-node": "^10.7.0",
         "typescript": "^4.6.2"
+    },
+    "dependencies": {
+        "canvas": "^2.9.0",
+        "twemoji-parser": "^14.0.0"
     }
 }

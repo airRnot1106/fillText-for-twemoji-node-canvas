@@ -19,5 +19,6 @@ module.exports = {
             'error',
             { argsIgnorePattern: '^_' },
         ],
+        'no-constant-condition': ['error', { checkLoops: false }],
     },
 };
