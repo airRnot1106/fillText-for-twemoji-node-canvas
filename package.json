@@ -1,6 +1,6 @@
 {
     "name": "filltext-for-twemoji",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Enables drawing of twemoji in node-canvas",
     "main": "dist/index.js",
     "files": [
