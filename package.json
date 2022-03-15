@@ -1,8 +1,11 @@
 {
-    "name": "filltext-for-twemoji-node-canvas",
+    "name": "filltext-for-twemoji",
     "version": "0.0.1",
     "description": "",
     "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "start": "node dist/index.js",
         "start-dev": "npx nodemon test/test.ts",
